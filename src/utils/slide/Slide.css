@@ -1,0 +1,59 @@
+.slick-slider {
+  width: 100%;
+  /* transform: translate(50%, 52%); */
+  /* z-index: 5; */
+}
+
+.slick-slide {
+  margin: 0 5px;
+}
+
+.slick-slider .slick-list {
+  margin: 0 -260px;
+  padding: 0 !important;
+  transform: translateX(-2%);
+}
+
+.slick-slider .slick-center {
+  border: 2px solid transparent;
+}
+
+.slick-slider .slick-center img {
+  vertical-align: bottom;
+  display: inline;
+}
+
+.slick-slider .slick-track {
+  top: 0;
+}
+
+.slick-slider .slick-track img {
+  width: 100%;
+  border-radius: 8px;
+  /* 위에는 이미지를 div에 꽉 채우기 위한 3가지 설정 */
+}
+
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 768px) {
+  .slick-slider {
+    margin-top: 2em;
+  }
+}
+@media screen and (max-width: 430px) {
+}
+@media screen and (max-width: 430px) {
+}
+
+@media screen and (max-width: 393px) {
+}
+@media screen and (max-width: 375px) {
+}
+
+@media screen and (max-width: 360px) {
+}

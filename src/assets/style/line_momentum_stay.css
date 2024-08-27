@@ -1,0 +1,506 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+#line-pc {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/inspirekorea-event.appspot.com/o/jp_momentum%2Fline_pc_bg.png?alt=media&token=c215c3d1-30a8-4d94-b316-48efeeccf343");
+}
+
+.momentum-bg {
+  background-image: url("https://webdevfiles.s3.ap-northeast-2.amazonaws.com/inspireir.jp/momentum/bg.png");
+  /* background-size: cover; */
+}
+
+#stay-pc {
+  background-image: url("https://webdevfiles.s3.ap-northeast-2.amazonaws.com/inspireir.jp/momentum/bg.png");
+}
+
+.pc-view {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.mobile-view {
+  display: none;
+}
+
+.inner {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+}
+
+.nav {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.scroll {
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.section {
+  max-width: 480px;
+  max-height: 1097px;
+  position: relative;
+  height: 1097px;
+}
+
+.section1 {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 10em 0 0;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/inspirekorea-event.appspot.com/o/jp_momentum%2Fframe.png?alt=media&token=d0bf784d-b76f-4b6a-b8f2-21ac867df2af");
+  background-size: cover;
+}
+
+.logo {
+  height: 100px;
+}
+
+.desc {
+  padding: 56px 0;
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  font-family: "NotoSans_Regular";
+  color: white;
+  font-size: 1.5em;
+}
+
+.btns > div {
+  margin-bottom: 1em;
+}
+
+.wrapper {
+  background-color: white;
+  width: 100%;
+}
+
+#bg-img {
+  width: 100%;
+}
+
+#footer-img {
+  width: 100%;
+}
+
+.accord-box {
+  margin: 0 auto;
+  width: 80%;
+  background-color: white;
+  padding: 2em 0;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 6.4px 3.2px;
+}
+
+.text-box {
+  position: absolute;
+  z-index: 10;
+  width: 80%;
+  top: 56%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slide-wrap {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  top: 82%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+}
+
+.momentum-slide {
+  img {
+    max-width: 100%;
+  }
+
+  .slick-slider .slick-list {
+    margin: 0 -260px;
+    padding: 0 !important;
+    /* transform: translateX(-2%); */
+  }
+
+  .slick-prev,
+  .slick-next {
+    display: none !important;
+  }
+}
+
+.momentum-slide1 {
+  img {
+    max-width: 100%;
+  }
+
+  .slick-slide {
+    margin: 0 5px;
+  }
+
+  .slick-slider .slick-list {
+    margin: 0 -200px;
+    padding: 0 !important;
+    transform: translateX(-7%);
+  }
+
+  .slick-prev,
+  .slick-next {
+    display: none !important;
+  }
+}
+
+.title {
+  font-family: "NotoSans_Bold";
+  color: #6b5a7f;
+}
+
+.content {
+  font-family: "NotoSans_Regular";
+  color: #0f0f0f;
+}
+
+.accord-content {
+  font-family: "NotoSans_Regular";
+  color: #6b5a7f;
+  padding: 1em 0;
+}
+
+.para {
+  margin-bottom: 2em;
+}
+
+.accordian {
+  margin-top: 2em;
+
+  img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.accord-wrap {
+  margin: 0 auto;
+  width: 85%;
+
+  img {
+    width: 90%;
+  }
+}
+
+.accord-btn {
+  text-align: center;
+}
+
+.img-box {
+  text-align: center;
+}
+
+.a_btn {
+  background-color: #6b5a7f;
+  color: white;
+  text-align: center;
+  width: 65%;
+  margin: 0 auto;
+  font-family: "NotoSans_Bold";
+  font-size: medium;
+  padding: 0.5rem 0;
+  box-shadow: 0px 4px #f1b311;
+}
+
+.insta_btn {
+  background-color: #6b5a7f;
+  color: white;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "NotoSans_Regular";
+  font-size: 1.8em;
+  padding: 0.5rem 0;
+}
+
+#line-qr {
+  width: 75%;
+}
+
+.ps {
+  font-family: "NotoSans_Regular";
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  padding: 36px 0;
+  margin: 0;
+}
+
+.f-wrap {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/inspirekorea-event.appspot.com/o/jp_momentum%2Fframe.png?alt=media&token=d0bf784d-b76f-4b6a-b8f2-21ac867df2af");
+  background-size: cover;
+}
+
+.footer {
+  position: sticky;
+  bottom: 0;
+  z-index: 100;
+}
+
+/* momentum */
+
+.momentum-text {
+  color: #502a75;
+  margin: 24px 0;
+  font-family: "NotoSans_Regular";
+}
+
+.momentum-subtitle {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.momentum-title {
+  font-size: 38px;
+  font-weight: 700;
+
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.momentum-btn {
+  width: 300px;
+  height: 57px;
+  border-radius: 33px;
+  background-color: #231f20;
+  color: white;
+  margin: 0 auto;
+
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 7px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.momentum-sec1 {
+  background-image: url("https://webdevfiles.s3.ap-northeast-2.amazonaws.com/inspireir.jp/momentum/hero_bg.png");
+  background-size: cover;
+  text-align: center;
+  max-width: 407px;
+}
+
+.momentum-sec2 {
+  max-width: 407px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.momentum-sec3 {
+  background-image: url("https://webdevfiles.s3.ap-northeast-2.amazonaws.com/inspireir.jp/momentum/howto_bg.png");
+  background-size: cover;
+  text-align: center;
+  margin-top: 5em;
+  padding: 0 2em 4em;
+  max-width: 407px;
+}
+
+.hero-content {
+  margin: 8em 0 4em;
+}
+
+.hero-desc {
+  margin: 2em 0 4em;
+}
+
+.icon-box {
+  text-align: center;
+  transform: translateY(-4px);
+  margin: 10px 0 50px;
+
+  img {
+    width: 85px;
+  }
+}
+
+.white-box {
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.sec3-title {
+  padding: 3em 0 1em;
+}
+
+.momentum-footer {
+  box-shadow: 5px 0px 4px 0px #00000040;
+
+  img {
+    width: 100%;
+    transform: translateY(-3px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pc-view {
+    display: none;
+  }
+
+  .mobile-view {
+    display: block;
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+
+  .momentum-mobile {
+    background-image: url("https://webdevfiles.s3.ap-northeast-2.amazonaws.com/inspireir.jp/momentum/bg.png");
+    /* background-size: cover; */
+
+    img {
+      display: inline;
+    }
+  }
+
+  .wrapper {
+    background-color: #6b5a7f;
+    width: 100%;
+  }
+
+  .text-box {
+    top: 54%;
+  }
+
+  .slide-wrap {
+    /* top: 82%; */
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .section {
+    height: 975px;
+  }
+  .title {
+    font-size: 1em;
+  }
+
+  .content {
+    font-size: 0.9em;
+  }
+
+  .accord-content {
+    font-size: 0.9em;
+  }
+
+  .insta_btn {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .section {
+    height: 950px;
+  }
+
+  .title {
+    font-size: 1em;
+  }
+
+  .content {
+    font-size: 0.85em;
+  }
+
+  .text-box {
+    top: 53%;
+  }
+
+  .accord-content {
+    font-size: 0.8em;
+  }
+
+  .insta_btn {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .section {
+    height: 892px;
+  }
+  .title {
+    font-size: 0.9em;
+  }
+
+  .content {
+    font-size: 0.8em;
+  }
+
+  .accord-content {
+    font-size: 0.8em;
+  }
+
+  .insta_btn {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .section {
+    height: 857px;
+  }
+  .title {
+    font-size: 0.9em;
+  }
+
+  .content {
+    font-size: 0.75em;
+  }
+
+  .accord-content {
+    font-size: 0.7em;
+  }
+
+  .insta_btn {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .section {
+    height: 820px;
+  }
+  .title {
+    font-size: 0.9em;
+  }
+
+  .content {
+    font-size: 0.75em;
+  }
+
+  .accord-content {
+    font-size: 0.7em;
+  }
+
+  .insta_btn {
+    font-size: 1.5em;
+  }
+}
