@@ -242,7 +242,10 @@ const Pc = () => {
           </div>
 
           <div class="footer">
-            <a href="https://lin.ee/YCTwrXE" target="_blank">
+            <a
+              href="https://liff.line.me/2004687746-l8g3jMx3/landing?follow=%40015eltte&lp=tnyQR3&liff_id=2004687746-l8g3jMx3"
+              target="_blank"
+            >
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/inspirekorea-event.appspot.com/o/jp_momentum%2Flinefooter.png?alt=media&token=1f7fa083-5ff9-45e3-9b41-9f1fcbf88546"
                 alt="footer"

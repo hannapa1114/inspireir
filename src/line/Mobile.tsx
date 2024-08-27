@@ -92,7 +92,7 @@ const Intro = () => {
                     <br />
                     従って友だち追加をしてください。
                   </div>
-                  <a href="https://lin.ee/YCTwrXE" target="_blank">
+                  <a href="https://liff.line.me/2004687746-l8g3jMx3/landing?follow=%40015eltte&lp=tnyQR3&liff_id=2004687746-l8g3jMx3" target="_blank">
                     <div class="a_btn">今すぐ友だちを追加</div>
                   </a>
                 </div>
@@ -190,7 +190,7 @@ const Intro = () => {
       </div>
 
       <div class="footer">
-        <a href="https://lin.ee/YCTwrXE" target="_blank">
+        <a href="https://liff.line.me/2004687746-l8g3jMx3/landing?follow=%40015eltte&lp=tnyQR3&liff_id=2004687746-l8g3jMx3" target="_blank">
           <img
             id="footer-img"
             src="https://firebasestorage.googleapis.com/v0/b/inspirekorea-event.appspot.com/o/jp_momentum%2Flinefooter.png?alt=media&token=1f7fa083-5ff9-45e3-9b41-9f1fcbf88546"
