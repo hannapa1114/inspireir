@@ -1,182 +1,155 @@
-import { useState } from "react";
+import Carousel from "../utils/slide/Carousel";
+import Slide from "../utils/slide/Slide";
+
 
 const Intro = () => {
-  const [btn1, setBtn1] = useState(false);
-  const [btn2, setBtn2] = useState(false);
-  const [btn3, setBtn3] = useState(false);
+  const slide1 = [
+    "https://webdevfiles.s3.ap-northeast-2.amazonaws.com/inspireir.jp/stay/slide1-1.png",
+    "https://webdevfiles.s3.ap-northeast-2.amazonaws.com/inspireir.jp/stay/slide1-2.png",
+    "https://webdevfiles.s3.ap-northeast-2.amazonaws.com/inspireir.jp/stay/slide1-3.png",
+    "https://webdevfiles.s3.ap-northeast-2.amazonaws.com/inspireir.jp/stay/slide1-4.png",
+    "https://webdevfiles.s3.ap-northeast-2.amazonaws.com/inspireir.jp/stay/slide1-5.png",
+  ];
+
+  const setting1 = {
+    dots: false,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    vertical: false,
+    autoplay: true,
+    centerMode: true,
+    centerPadding: "0px",
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+  };
+
+  const slide2 = [
+    "https://webdevfiles.s3.ap-northeast-2.amazonaws.com/inspireir.jp/stay/slide2-1.png",
+    "https://webdevfiles.s3.ap-northeast-2.amazonaws.com/inspireir.jp/stay/slide-2-4.png",
+    "https://webdevfiles.s3.ap-northeast-2.amazonaws.com/inspireir.jp/stay/slide2-3.png",
+  ];
+
+  const setting2 = {
+    dots: false,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    vertical: false,
+    autoplay: true,
+    centerMode: true,
+    centerPadding: "0px",
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+  };
+
+  const towersetting = {
+    dots: false,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    vertical: false,
+    autoplay: false,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+  };
+
+  const oceanimg = [
+    "https://webdevfiles.s3.ap-northeast-2.amazonaws.com/inspireir.jp/stay/ocean/OceanDeluxeKing3.jpg",
+    "https://webdevfiles.s3.ap-northeast-2.amazonaws.com/inspireir.jp/stay/ocean/OceanSuite_1.jpg",
+  ];
+  const forestimg = [
+    "https://webdevfiles.s3.ap-northeast-2.amazonaws.com/inspireir.jp/stay/forest/ForestDeluxeKing_0.jpg",
+    "https://webdevfiles.s3.ap-northeast-2.amazonaws.com/inspireir.jp/stay/forest/ForestSuite_v2.jpg",
+  ];
+  const sunimg = [
+    "https://webdevfiles.s3.ap-northeast-2.amazonaws.com/inspireir.jp/stay/sun/SunDeluxeKing1.jpg",
+    "https://webdevfiles.s3.ap-northeast-2.amazonaws.com/inspireir.jp/stay/sun/SunTowerInspireSuite_1.jpg",
+  ];
 
   return (
     <div class="wrapper">
-      <div class="section">
-        <img
-          class="bg-img"
-          src="https://firebasestorage.googleapis.com/v0/b/inspirekorea-event.appspot.com/o/jp_momentum%2FIntro.png?alt=media&token=98467b53-a6c3-4c12-99a4-de3d4bff00ac"
-          alt="intro"
-        />
-        <div class="text-box">
-          <div class="para">
-            <span class="title">登録だけでお得に！</span>
-            <p class="content">
-              プレゼントキャンペーンや、
-              <br />
-              クーポンなどお得な情報のみをお届け！
-              <br />
-              LINE限定のオファーをお見逃しなく！
-            </p>
+       <div class="scroll">
+          <div class="stay1">
+            <div class="stay-slide">
+              <Slide imgs={slide1} settings={setting1} />
+            </div>
           </div>
-          <div>
-            <span class="title">登録だけでお得に！</span>
-            <p class="content">
-              韓国で最先端かつ話題のエンターテインメント
-              <br />
-              アトラクションをインスパイアで楽しもう！
-              <br />
-              限定オファーや最新のリゾート情報をお届けします！
-            </p>
+          <div class="">
+            <img
+              class="bg-img"
+              src="https://webdevfiles.s3.ap-northeast-2.amazonaws.com/inspireir.jp/stay/stay2-1.png"
+              alt="stay 2"
+            />
+            <div class="stay-tower">
+              <div className="tower-box">
+                <div class="white-slide-box-right">
+                  <div id="ocean">
+                    <Slide imgs={oceanimg} settings={towersetting} />
+                  </div>
+                </div>
+                <div class="slide-text">
+                  <h3>オーシャンタワー</h3>
+                  <p>
+                    海のように爽やかな空間で ゆっくり過ごす。
+                    オーシャンタワーは機能性 の高いインテリアを備え、
+                    仕事と休憩を充実させる 滞在をお約束いたします。
+                  </p>
+                </div>
+              </div>
+              <div className="tower-box">
+                <div class="slide-text">
+                  <h3>オーシャンタワー</h3>
+                  <p>
+                    海のように爽やかな空間で ゆっくり過ごす。
+                    オーシャンタワーは機能性 の高いインテリアを備え、
+                    仕事と休憩を充実させる 滞在をお約束いたします。
+                  </p>
+                </div>
+                <div class="white-slide-box-left">
+                  <div id="forest">
+                    <Slide imgs={sunimg} settings={towersetting} />
+                  </div>
+                </div>
+              </div>
+              <div className="tower-box" style={{ marginBottom: 0 }}>
+                <div class="white-slide-box-right">
+                  <div id="sun">
+                    <Slide imgs={forestimg} settings={towersetting} />
+                  </div>
+                </div>
+                <div class="slide-text">
+                  <h3>オーシャンタワー</h3>
+                  <p>
+                    海のように爽やかな空間で ゆっくり過ごす。
+                    オーシャンタワーは機能性 の高いインテリアを備え、
+                    仕事と休憩を充実させる 滞在をお約束いたします。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="stay3">
+            <div class="stay-slide1">
+              <Slide imgs={slide2} settings={setting2} />
+            </div>
+          </div>
+          <div class="stay4">
+            <div class="service">
+              <div id="service-box">
+                <Carousel />
+              </div>
+              <div style={{ width: "40%" }}></div>
+            </div>
+            <div class="stay-footer">
+            <span class="cta-desc">＼ お得なプランも多数ご用意 ／</span>
+              <a href="https://www.inspirekorea.com/ja/stay" target="_blank">
+                <div class="cta-btn">ご予約はコチラ</div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-
-      {/* accordian start */}
-      <div class="section1">
-        <div id="accord1" class="accordian">
-          {!btn1 ? (
-            <img
-              onClick={() => setBtn1(!btn1)}
-              src="https://firebasestorage.googleapis.com/v0/b/inspirekorea-event.appspot.com/o/jp_momentum%2Faccord1_close.png?alt=media&token=46bf8a8c-35a6-409c-97f2-46346743aa34"
-              alt=""
-            />
-          ) : (
-            <div onClick={() => setBtn1(!btn1)}>
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/inspirekorea-event.appspot.com/o/jp_momentum%2Faccord1_open.png?alt=media&token=c0af32bf-231d-47f0-8ccc-6ae3f846af17"
-                alt=""
-              />
-              <div class="accord-box">
-                <div class="accord-wrap">
-                  <img
-                    src="https://firebasestorage.googleapis.com/v0/b/inspirekorea-event.appspot.com/o/jp_momentum%2F%E3%83%9E%E3%82%B9%E3%82%AF%E3%82%AF%E3%82%99%E3%83%AB%E3%83%BC%E3%83%95%E3%82%9A%201.png?alt=media&token=d059abf6-ad76-4f88-8078-3474b6931e1e"
-                    alt=""
-                  />
-                  <div class="accord-content">
-                    LINEアプリをインストールした
-                    <br />
-                    スマートフォンで下記リンクボタンから
-                    <br />
-                    アクセスし、「友だち追加はコチラ」
-                    <br />
-                    ボタンをタップしてください。
-                    <br />
-                    LINEアプリが起動しますので、画面の指示に
-                    <br />
-                    従って友だち追加をしてください。
-                  </div>
-                  <a href="https://lin.ee/YCTwrXE" target="_blank">
-                    <div class="a_btn">今すぐ友だちを追加</div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          )}
-        </div>
-        <div id="accod2" class="accordian">
-          {!btn2 ? (
-            <img
-              onClick={() => setBtn2(!btn2)}
-              src="https://firebasestorage.googleapis.com/v0/b/inspirekorea-event.appspot.com/o/jp_momentum%2Faccord2_close.png?alt=media&token=a628f9b0-7486-4623-9706-27d96c7d8ac7"
-              alt=""
-            />
-          ) : (
-            <div>
-              <img
-                onClick={() => setBtn2(!btn2)}
-                src="https://firebasestorage.googleapis.com/v0/b/inspirekorea-event.appspot.com/o/jp_momentum%2Faccord2_open.png?alt=media&token=9e6c9506-93a8-4186-b285-3dd5cb7c20fc"
-                alt=""
-              />
-              <div class="accord-box">
-                <div class="accord-wrap">
-                  <div class="accord-content">
-                    1.LINEアプリを起動し、画面上端の
-                    <br />
-                    「友だち追加」から「QRコード」を
-                    <br />
-                    　選択してください。
-                    <br />
-                    <br />
-                    2.読み取りカメラが起動しますので、
-                    <br />
-                    　下記の「QRコード」を読み込み、画面の
-                    <br />
-                    　指示に従って友だち追加をしてください。
-                  </div>
-                  <img
-                    id="line-qr"
-                    src="https://firebasestorage.googleapis.com/v0/b/inspirekorea-event.appspot.com/o/jp_momentum%2FM_inspirekorea_japan_GW.png?alt=media&token=e9abbe60-92c4-4976-b381-bb043943d19e"
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
-          )}
-        </div>
-        <div id="accod3" class="accordian">
-          {!btn3 ? (
-            <img
-              onClick={() => setBtn3(!btn3)}
-              src="https://firebasestorage.googleapis.com/v0/b/inspirekorea-event.appspot.com/o/jp_momentum%2Faccord3_close.png?alt=media&token=f9cd2d7e-6635-4690-8dc5-4a60edb9c473"
-              alt=""
-            />
-          ) : (
-            <div>
-              <img
-                onClick={() => setBtn3(!btn3)}
-                src="https://firebasestorage.googleapis.com/v0/b/inspirekorea-event.appspot.com/o/jp_momentum%2Faccord3_open.png?alt=media&token=ece0fa7a-a93a-49af-9251-fa8dc19fc38f"
-                alt=""
-              />
-              <div class="accord-box" style={{ paddingTop: 0 }}>
-                <div class="accord-wrap">
-                  <div class="accord-content">
-                    LINEアプリを起動し、
-                    <br />
-                    画面上端の「友だち追加」から
-                    <br />
-                    「検索」を選択してください。
-                    <br />
-                    <br />
-                    検索対象が「ID」になっていることを
-                    <br />
-                    確認して、「@inspirekorea_japan」と
-                    <br />
-                    入力し検索を行ってください。
-                    <br />
-                    インスパイア公式アカウントを選択し、
-                    <br />
-                    友だち追加してください。
-                  </div>
-                  <div class="insta_btn">@inspirekorea_japan</div>
-                </div>
-              </div>
-            </div>
-          )}
-        </div>
-        <div>
-          <p class="ps">
-            ※LINEプラットフォーム上で提供するサービスにおいて、
-            <br />
-            ユーザーに関わる情報が共通で利用されることがあります。
-          </p>
-        </div>
-      </div>
-
-      <div class="footer">
-        <a href="https://lin.ee/YCTwrXE" target="_blank">
-          <img
-            src="https://firebasestorage.googleapis.com/v0/b/inspirekorea-event.appspot.com/o/jp_momentum%2Flinefooter.png?alt=media&token=1f7fa083-5ff9-45e3-9b41-9f1fcbf88546"
-            alt=""
-          />
-        </a>
-      </div>
-    </div>
   );
 };
 
