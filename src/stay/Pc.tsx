@@ -97,7 +97,11 @@ const Pc = () => {
             <br />
             最高の非日常感を味わえる旅にお出かけください。
           </div>
-          <a href="https://www.inspirekorea.com/ja/stay" target="_blank" style={{color: 'black'}}>
+          <a
+            href="https://www.inspirekorea.com/ja/stay"
+            target="_blank"
+            style={{ color: "black" }}
+          >
             <div class="stay-pc-btn">ご予約はコチラ</div>
           </a>
         </div>
@@ -132,11 +136,9 @@ const Pc = () => {
               </div>
               <div className="tower-box">
                 <div class="slide-text">
-                  <h3>オーシャンタワー</h3>
+                  <h3>フォレストタワー</h3>
                   <p>
-                    海のように爽やかな空間で ゆっくり過ごす。
-                    オーシャンタワーは機能性 の高いインテリアを備え、
-                    仕事と休憩を充実させる 滞在をお約束いたします。
+                    森のオアシスをイメージしたフォレストタワーは、豊かな色彩に包まれた快適な空間です。オレンジとブルーが調和した部屋は安らぎを与えてくれます。
                   </p>
                 </div>
                 <div class="white-slide-box-left">
@@ -152,11 +154,11 @@ const Pc = () => {
                   </div>
                 </div>
                 <div class="slide-text">
-                  <h3>オーシャンタワー</h3>
+                  <h3>サンタワー</h3>
                   <p>
-                    海のように爽やかな空間で ゆっくり過ごす。
-                    オーシャンタワーは機能性 の高いインテリアを備え、
-                    仕事と休憩を充実させる 滞在をお約束いたします。
+                    力あふれる太陽にインスピ レーションを受けた、
+                    優雅で華やかなサンタワー。 自然素材のインテリアと
+                    アート作品で心温まる おもてなしをご提供します。
                   </p>
                 </div>
               </div>

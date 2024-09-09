@@ -95,7 +95,7 @@ const Pc = () => {
                 </p>
               </div>
               <div>
-                <span class="title">登録だけでお得に！</span>
+                <span class="title">お得に韓国を遊びつくせる</span>
                 <p class="content">
                   韓国で最先端かつ話題のエンターテインメント
                   <br />
