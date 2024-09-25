@@ -1,4 +1,4 @@
-import { useRef } from "react";
+// import { useRef } from "react";
 import Slide from "../utils/slide/Slide";
 import Carousel from "../utils/slide/Carousel";
 

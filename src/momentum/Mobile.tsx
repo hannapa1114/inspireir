@@ -80,7 +80,7 @@ const Intro = () => {
             <img
               src="https://webdevfiles.s3.ap-northeast-2.amazonaws.com/inspireir.jp/momentum/benefit1.png"
               alt="bene 1"
-              style={{ margin: "50px 0" }}
+              style={{ margin: "50px 0", width: '85%' }}
             />
           </div>
           <div class="momentum-slide">
@@ -115,13 +115,14 @@ const Intro = () => {
             <img
               src="https://webdevfiles.s3.ap-northeast-2.amazonaws.com/inspireir.jp/momentum/joinimg.png"
               alt=""
+              style={{width: "85%" }}
             />
           </div>
           <div>
             <img
               src="https://webdevfiles.s3.ap-northeast-2.amazonaws.com/inspireir.jp/momentum/join.png"
               alt=""
-              style={{ margin: "2em 0" }}
+              style={{ margin: "2em 0", width: "85%" }}
             />
           </div>
 

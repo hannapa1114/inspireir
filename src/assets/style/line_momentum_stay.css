@@ -12,7 +12,7 @@ body {
 
 .momentum-bg {
   background-image: url("https://webdevfiles.s3.ap-northeast-2.amazonaws.com/inspireir.jp/momentum/bg.png");
-  /* background-size: cover; */
+  background-size: cover;
 }
 
 #stay-pc {
@@ -826,6 +826,10 @@ body {
 
   .stay-footer {
     bottom: 1.2%;
+  }
+
+  .momentum-btn {
+    width: 265px;
   }
 }
 
