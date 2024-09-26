@@ -98,7 +98,7 @@ const Pc = () => {
             最高の非日常感を味わえる旅にお出かけください。
           </div>
           <a
-            href="https://www.inspirekorea.com/ja/stay"
+            href="https://www.inspirekorea.com/ja/stay?utm_source=inspireir_stay&utm_medium=posting&utm_campaign=inspireir_stay&utm_id=Japan_Stay&utm_term=stay_lp&utm_content=landingpage"
             target="_blank"
             style={{ color: "black" }}
           >
@@ -178,7 +178,10 @@ const Pc = () => {
             </div>
             <div class="stay-footer">
               <span class="cta-desc">＼ お得なプランも多数ご用意 ／</span>
-              <a href="https://www.inspirekorea.com/ja/stay" target="_blank">
+              <a
+                href="https://www.inspirekorea.com/ja/stay?utm_source=inspireir_stay&utm_medium=posting&utm_campaign=inspireir_stay&utm_id=Japan_Stay&utm_term=stay_lp&utm_content=landingpage"
+                target="_blank"
+              >
                 <div class="cta-btn">ご予約はコチラ</div>
               </a>
             </div>

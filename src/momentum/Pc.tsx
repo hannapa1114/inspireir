@@ -52,7 +52,7 @@ const Pc = () => {
             <div class="momentum-title">無料登録受付開始</div>
           </div>
           <a
-            href="https://www.inspirekorea.com/ja/momentum/join-momentum"
+            href="https://www.inspirekorea.com/ja/momentum/join-momentum?utm_source=inspireir_momentum&utm_medium=posting&utm_campaign=inspireir_momentum&utm_id=Japan_momentum&utm_term=momentum_lp&utm_content=landingpage"
             target="_blank"
           >
             <div class="momentum-btn">無料登録はこちら</div>
@@ -153,7 +153,7 @@ const Pc = () => {
               </div>
 
               <a
-                href="https://www.inspirekorea.com/ja/momentum/join-momentum"
+                href="https://www.inspirekorea.com/ja/momentum/join-momentum?utm_source=inspireir_momentum&utm_medium=posting&utm_campaign=inspireir_momentum&utm_id=Japan_momentum&utm_term=momentum_lp&utm_content=landingpage"
                 target="_blank"
               >
                 <div class="momentum-btn">無料登録はこちら</div>

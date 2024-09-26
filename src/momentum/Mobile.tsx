@@ -80,7 +80,7 @@ const Intro = () => {
             <img
               src="https://webdevfiles.s3.ap-northeast-2.amazonaws.com/inspireir.jp/momentum/benefit1.png"
               alt="bene 1"
-              style={{ margin: "50px 0", width: '85%' }}
+              style={{ margin: "50px 0", width: "85%" }}
             />
           </div>
           <div class="momentum-slide">
@@ -115,7 +115,7 @@ const Intro = () => {
             <img
               src="https://webdevfiles.s3.ap-northeast-2.amazonaws.com/inspireir.jp/momentum/joinimg.png"
               alt=""
-              style={{width: "85%" }}
+              style={{ width: "85%" }}
             />
           </div>
           <div>
@@ -127,7 +127,7 @@ const Intro = () => {
           </div>
 
           <a
-            href="https://www.inspirekorea.com/ja/momentum/join-momentum"
+            href="https://www.inspirekorea.com/ja/momentum/join-momentum?utm_source=inspireir_momentum&utm_medium=posting&utm_campaign=inspireir_momentum&utm_id=Japan_momentum&utm_term=momentum_lp&utm_content=landingpage"
             target="_blank"
           >
             <div class="momentum-btn">無料登録はこちら</div>
