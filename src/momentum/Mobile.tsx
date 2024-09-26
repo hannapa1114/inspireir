@@ -127,7 +127,7 @@ const Intro = () => {
           </div>
 
           <a
-            href="https://www.inspirekorea.com/ja/momentum/join-momentum?utm_source=inspireir_momentum&utm_medium=posting&utm_campaign=inspireir_momentum&utm_id=Japan_momentum&utm_term=momentum_lp&utm_content=landingpage"
+            href="https://www.inspirekorea.com/ja/momentum/join-momentum#utm_source=inspireir_momentum&utm_medium=posting&utm_campaign=inspireir_momentum&utm_id=Japan_momentum&utm_term=momentum_lp&utm_content=landingpage"
             target="_blank"
           >
             <div class="momentum-btn">無料登録はこちら</div>
